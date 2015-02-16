@@ -19,6 +19,8 @@ public class CarScript : MonoBehaviour {
 
 		max_speed = 70;
 		acc_rate = 0.25f;
+
+		Physics.gravity = new Vector3(0,-40,0);
 	}
 
 	void FixedUpdate () {
@@ -48,7 +50,10 @@ public class CarScript : MonoBehaviour {
 		}
 		else if (accel < 0)
 		{
-			move_speed -= acc_rate;
+			if (move_speed > 0)
+				move_speed -= acc_rate * 2;
+			else
+				move_speed -= acc_rate;
 		}
 		else if (move_speed != 0)
 		{
