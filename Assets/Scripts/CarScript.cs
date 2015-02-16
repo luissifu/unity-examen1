@@ -26,8 +26,9 @@ public class CarScript : MonoBehaviour {
 		calculate_rotation ();
 
 		float movement = move_speed * Time.deltaTime;
-		transform.rotation = Quaternion.Euler (0, new_angle, 0);
+		rigidbody.rotation = Quaternion.Euler (0, new_angle, 0);
 		transform.Translate (Vector3.forward * movement);
+		//rigidbody.MovePosition(Vector3.forward * movement);
 	}
 
 	private void calculate_rotation() {
