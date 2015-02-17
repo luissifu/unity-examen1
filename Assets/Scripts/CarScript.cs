@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CarScript : MonoBehaviour {
 
-	public float turn_speed;
-	public float move_speed;
-	public float max_speed;
-	public float acc_rate;
-
+	private float turn_speed;
+	private float move_speed;
+	private float max_speed;
+	private float acc_rate;
 	private float new_angle;
 
-
+	public Text speed;
 
 	void Start () {
 		turn_speed = 90;
@@ -31,6 +31,8 @@ public class CarScript : MonoBehaviour {
 		rigidbody.rotation = Quaternion.Euler (0, new_angle, 0);
 		transform.Translate (Vector3.forward * movement);
 		//rigidbody.MovePosition(Vector3.forward * movement);
+
+		speed.text = Mathf.CeilToInt(move_speed * 2) + " km/hr"; 
 	}
 
 	private void calculate_rotation() {
