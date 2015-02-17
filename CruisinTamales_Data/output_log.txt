@@ -14,29 +14,29 @@ Platform assembly: C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Ma
 Loading C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.105 seconds
+- Completed reload, in  0.060 seconds
 desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Luis\Documents\Unity\parcial1\CruisinTamales_Data\Managed\System.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-UnloadTime: 3.750267 ms
+UnloadTime: 3.570356 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 301.
-Total: 1.145466 ms (FindLiveObjects: 0.020533 ms CreateObjectMapping: 0.014666 ms MarkObjects: 0.166711 ms  DeleteObjects: 0.426311 ms)
+Total: 1.211955 ms (FindLiveObjects: 0.029333 ms CreateObjectMapping: 0.019066 ms MarkObjects: 0.176977 ms  DeleteObjects: 0.433155 ms)
 
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-UnloadTime: 2.927467 ms
+UnloadTime: 2.922578 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 173.
-Total: 3.573289 ms (FindLiveObjects: 0.012222 ms CreateObjectMapping: 0.031777 ms MarkObjects: 0.170622 ms  DeleteObjects: 2.867822 ms)
+Total: 12.731157 ms (FindLiveObjects: 0.011733 ms CreateObjectMapping: 0.016622 ms MarkObjects: 0.170622 ms  DeleteObjects: 11.947468 ms)
 
-UnloadTime: 0.707911 ms
+UnloadTime: 0.704977 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 181.
-Total: 3.485778 ms (FindLiveObjects: 0.009288 ms CreateObjectMapping: 0.014177 ms MarkObjects: 0.160844 ms  DeleteObjects: 2.870755 ms)
+Total: 12.529734 ms (FindLiveObjects: 0.010755 ms CreateObjectMapping: 0.018088 ms MarkObjects: 0.171600 ms  DeleteObjects: 11.880001 ms)
 
