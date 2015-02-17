@@ -20,7 +20,7 @@ public class GameScript : MonoBehaviour {
 
 		if (time_left <= 0)
 		{
-			//meep
+			Application.LoadLevel("GameOverBad");
 		}
 	}
 
